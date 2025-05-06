@@ -7,8 +7,6 @@
     $pgMovies = 10;
     $gMovies = 5;
 
-
-    <?php
     if ($age > $rRatedMovies) {
         echo 'You are old enough to watch R rated movies.';
     }
@@ -24,6 +22,5 @@
     else {
         echo 'Enter a age.';
     }
-    ?>
 ?>
 
