@@ -20,7 +20,7 @@
         echo 'You are old enough to watch G rated movies.';
     }
     else {
-        echo 'Enter a age.';
+        echo 'Enter a valid age.';
     }
 ?>
 
