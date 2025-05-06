@@ -23,7 +23,7 @@
     <?php
       echo "<h3>Appropriate Age To Watch Movies.</h3>";
     ?>
-    <form action="./results.php" method="post" target="result">
+    <form action="results.php" method="post" target="result">
       <label for="userAge">User's Age</label>
       <input type="number" id="userAge" placeholder="Enter age..." name="userAge">
       <br><br>

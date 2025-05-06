@@ -9,20 +9,20 @@
 
 
     <?php
-    if ($age >= $rRatedMovies) {
+    if ($age > $rRatedMovies) {
         echo 'You are old enough to watch R rated movies.';
     }
-    else if ($age >= $pg13Movies) {
+    else if ($age > $pg13Movies) {
         echo 'You are old enough to watch PG-13 rated movies.';
     }
-    else if ($age >= $pgMovies) {
+    else if ($age > $pgMovies) {
         echo 'You are old enough to watch PG rated movies.';
     }
-    else if ($age >= $gMovies) {
+    else if ($age > $gMovies) {
         echo 'You are old enough to watch G rated movies.';
     }
     else {
-        echo 'Enter a valid age.';
+        echo 'Enter a age.';
     }
     ?>
 ?>
